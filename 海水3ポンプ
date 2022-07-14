@@ -1,0 +1,619 @@
+<!-- rustrician.io circuit :: Thu Jul 14 2022 15:21:00 GMT+0900 (日本標準時) -->
+<!-- rustrician.io circuit :: Thu Jul 14 2022 15:21:00 GMT+0900 (日本標準時) -->
+<mxGraphModel>
+  <root>
+    <mxCell id="0"/>
+    <mxCell id="1" parent="0" version="1337.320" tags="" name="Untitled Circuit">
+      <Object sun="100" wind="50" speed="10" as="environment"/>
+    </mxCell>
+    <mxCell id="322" value="Water Pump" style="cmp_waterpump" vertex="1" connectable="0" parent="1">
+      <mxGeometry x="124" y="-40" width="64" height="64" as="geometry"/>
+      <Object cmpid="waterpump" isroot="1" combinable="1" consumption="5" display="0" display_filter="time" subdisplay="0" charge="0" passthrough="1" output="12" charge_max="2000" charge_min="0" active_usage="0" last_active_usage="0" usage="5" state="1" laststate="1" laststate2="1" blockable="1" update_amount="85" update_rate="10" update_value="6" as="attrs">
+        <Array as="active_ids"/>
+      </Object>
+      <Array as="props">
+        <Object name="Capacity" type="float" value="1.0000"/>
+        <Object name="Show Time Remaining" type="bool" value="true"/>
+        <Object name="Show Active Usage" type="bool" value="false"/>
+      </Array>
+      <Object wood="250" mf="200" gear="1" as="craft"/>
+    </mxCell>
+    <mxCell id="323" value="Power In" style="port" vertex="1" parent="322" type="in" consumable="1" reconsumable="0" delayed="0" direct="0" warning="0">
+      <mxGeometry x="-0.15" y="0.4" width="10" height="10" relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="324" value="Water Output" style="portf" vertex="1" parent="322" type="fout" consumable="1" reconsumable="0" delayed="0" direct="0" warning="0">
+      <mxGeometry x="1" y="0.4" width="10" height="10" relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="325" value="Water Pump" style="cmp_waterpump" vertex="1" connectable="0" parent="1">
+      <mxGeometry x="124" y="-106" width="64" height="64" as="geometry"/>
+      <Object cmpid="waterpump" isroot="1" combinable="1" consumption="5" display="0" display_filter="time" subdisplay="0" charge="0" passthrough="1" output="12" charge_max="2000" charge_min="0" active_usage="0" last_active_usage="0" usage="5" state="1" laststate="1" laststate2="1" blockable="1" update_amount="85" update_rate="10" update_value="6" as="attrs">
+        <Array as="active_ids"/>
+      </Object>
+      <Array as="props">
+        <Object name="Capacity" type="float" value="1.0000"/>
+        <Object name="Show Time Remaining" type="bool" value="true"/>
+        <Object name="Show Active Usage" type="bool" value="false"/>
+      </Array>
+      <Object wood="250" mf="200" gear="1" as="craft"/>
+    </mxCell>
+    <mxCell id="326" value="Power In" style="port" vertex="1" parent="325" type="in" consumable="1" reconsumable="0" delayed="0" direct="0" warning="0">
+      <mxGeometry x="-0.15" y="0.4" width="10" height="10" relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="327" value="Water Output" style="portf" vertex="1" parent="325" type="fout" consumable="1" reconsumable="0" delayed="0" direct="0" warning="0">
+      <mxGeometry x="1" y="0.4" width="10" height="10" relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="328" value="Water Pump" style="cmp_waterpump" vertex="1" connectable="0" parent="1">
+      <mxGeometry x="124" y="-170" width="64" height="64" as="geometry"/>
+      <Object cmpid="waterpump" isroot="1" combinable="1" consumption="5" display="0" display_filter="time" subdisplay="0" charge="0" passthrough="1" output="12" charge_max="2000" charge_min="0" active_usage="0" last_active_usage="0" usage="5" state="1" laststate="1" laststate2="1" blockable="1" update_amount="85" update_rate="10" update_value="6" as="attrs">
+        <Array as="active_ids"/>
+      </Object>
+      <Array as="props">
+        <Object name="Capacity" type="float" value="1.0000"/>
+        <Object name="Show Time Remaining" type="bool" value="true"/>
+        <Object name="Show Active Usage" type="bool" value="false"/>
+      </Array>
+      <Object wood="250" mf="200" gear="1" as="craft"/>
+    </mxCell>
+    <mxCell id="329" value="Power In" style="port" vertex="1" parent="328" type="in" consumable="1" reconsumable="0" delayed="0" direct="0" warning="0">
+      <mxGeometry x="-0.15" y="0.4" width="10" height="10" relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="330" value="Water Output" style="portf" vertex="1" parent="328" type="fout" consumable="1" reconsumable="0" delayed="0" direct="0" warning="0">
+      <mxGeometry x="1" y="0.4" width="10" height="10" relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="331" value="Powered Water Purifier" style="cmp_waterpurifier" vertex="1" connectable="0" parent="1">
+      <mxGeometry x="470" y="-138" width="64" height="64" as="geometry"/>
+      <Object cmpid="waterpurifier" isroot="0" combinable="1" consumption="5" display="0" display_filter="time" subdisplay="0" charge="0" passthrough="0" output="12" charge_max="5000" charge_min="0" active_usage="0" last_active_usage="0" usage="17" state="1" laststate="0" laststate2="0" blockable="1" as="attrs">
+        <Array as="active_ids"/>
+      </Object>
+      <Array as="props">
+        <Object name="Capacity" type="float" value="678.0000"/>
+        <Object name="Show Time Remaining" type="bool" value="true"/>
+        <Object name="Show Active Usage" type="bool" value="false"/>
+      </Array>
+      <Object wood="100" mf="300" cloth="20" as="craft"/>
+    </mxCell>
+    <mxCell id="332" value="Power In" style="portv" vertex="1" parent="331" type="in" consumable="1" reconsumable="0" delayed="0" direct="0" warning="0">
+      <mxGeometry x="0.4" y="-0.2" width="10" height="10" relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="333" value="Water In" style="portf" vertex="1" parent="331" type="fin" consumable="1" reconsumable="0" delayed="0" direct="0" warning="0">
+      <mxGeometry x="-0.15" y="0.4" width="10" height="10" relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="334" value="Water Out" style="portf" vertex="1" parent="331" type="fout" consumable="1" reconsumable="0" delayed="0" direct="0" warning="0">
+      <mxGeometry x="1" y="0.4" width="10" height="10" relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="335" value="Fluid Combiner" style="cmp_fluid_combiner" vertex="1" connectable="0" parent="1">
+      <mxGeometry x="220" y="-40" width="64" height="64" as="geometry"/>
+      <Object cmpid="fluid_combiner" consumption="0" passthrough="1" usage="1" as="attrs"/>
+      <Array as="props"/>
+      <Object mf="75" as="craft"/>
+    </mxCell>
+    <mxCell id="336" value="Water In 1" style="portvf" vertex="1" parent="335" type="fin" consumable="1" reconsumable="0" delayed="0" direct="0" warning="0">
+      <mxGeometry x="0.1" y="-0.2" width="10" height="10" relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="337" value="Water In 2" style="portvf" vertex="1" parent="335" type="fin" consumable="1" reconsumable="0" delayed="0" direct="0" warning="0">
+      <mxGeometry x="0.45" y="-0.2" width="10" height="10" relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="338" value="Water In 3" style="portvf" vertex="1" parent="335" type="fin" consumable="1" reconsumable="0" delayed="0" direct="0" warning="0">
+      <mxGeometry x="0.8" y="-0.2" width="10" height="10" relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="339" value="Water Out" style="portvf" vertex="1" parent="335" type="fout" consumable="1" reconsumable="0" delayed="0" direct="0" warning="0">
+      <mxGeometry x="0.4" y="1.05" width="10" height="10" relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="346" value="Splitter" style="cmp_splitter" vertex="1" connectable="0" parent="1">
+      <mxGeometry x="-10" y="-230" width="64" height="64" as="geometry"/>
+      <Object cmpid="splitter" consumption="1" passthrough="0" usage="1" as="attrs"/>
+      <Array as="props"/>
+      <Object mf="100" as="craft"/>
+    </mxCell>
+    <mxCell id="347" value="Power In" style="portv" vertex="1" parent="346" type="in" consumable="1" reconsumable="0" delayed="0" direct="0" warning="0">
+      <mxGeometry x="0.4" y="-0.2" width="10" height="10" relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="348" value="Power Out 1" style="portv" vertex="1" parent="346" type="out" consumable="1" reconsumable="0" delayed="0" direct="1" warning="0">
+      <mxGeometry x="0.1" y="1" width="10" height="10" relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="349" value="Power Out 2" style="portv" vertex="1" parent="346" type="out" consumable="1" reconsumable="0" delayed="0" direct="1" warning="0">
+      <mxGeometry x="0.45" y="1" width="10" height="10" relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="350" value="Power Out 3" style="portv" vertex="1" parent="346" type="out" consumable="1" reconsumable="0" delayed="0" direct="1" warning="0">
+      <mxGeometry x="0.8" y="1" width="10" height="10" relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="351" value="0" edge="1" disabled="0" hovered="0" parent="1" source="350" target="329" link="434" origin="363">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="49.74989492481649" y="-138.12197748200188"/>
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="352" value="0" edge="1" disabled="0" hovered="0" parent="1" source="349" target="326" link="434" origin="363">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="19.749894924816488" y="-68.12197748200191"/>
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="353" value="0" edge="1" disabled="0" hovered="0" parent="1" source="348" target="323" link="434" origin="363">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="-0.2501050751835123" y="-18.12197748200191"/>
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="375" value="Fluid Splitter" style="cmp_fluid_splitter" vertex="1" connectable="0" parent="1">
+      <mxGeometry x="328" y="-140" width="64" height="64" as="geometry"/>
+      <Object cmpid="fluid_splitter" consumption="1" passthrough="1" usage="1" as="attrs"/>
+      <Array as="props"/>
+      <Object mf="75" as="craft"/>
+    </mxCell>
+    <mxCell id="376" value="Water In" style="portvf" vertex="1" parent="375" type="fin" consumable="1" reconsumable="0" delayed="0" direct="0" warning="0">
+      <mxGeometry x="0.4" y="-0.2" width="10" height="10" relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="377" value="Water Out 1" style="portvf" vertex="1" parent="375" type="fout" consumable="1" reconsumable="0" delayed="0" direct="1" warning="0">
+      <mxGeometry x="0.1" y="1" width="10" height="10" relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="378" value="Water Out 2" style="portvf" vertex="1" parent="375" type="fout" consumable="1" reconsumable="0" delayed="0" direct="1" warning="0">
+      <mxGeometry x="0.45" y="1" width="10" height="10" relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="379" value="Water Out 3" style="portvf" vertex="1" parent="375" type="fout" consumable="1" reconsumable="0" delayed="0" direct="1" warning="0">
+      <mxGeometry x="0.8" y="1" width="10" height="10" relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="381" value="17" edge="1" disabled="0" hovered="0" parent="1" source="379" target="333" origin="328" link="395">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="464.49499655477763" y="-67.23914075198363"/>
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="382" value="Powered Water Purifier" style="cmp_waterpurifier" vertex="1" connectable="0" parent="1">
+      <mxGeometry x="470" y="-42" width="64" height="64" as="geometry"/>
+      <Object cmpid="waterpurifier" isroot="0" combinable="1" consumption="5" display="0" display_filter="time" subdisplay="0" charge="0" passthrough="0" output="12" charge_max="5000" charge_min="0" active_usage="0" last_active_usage="0" usage="17" state="1" laststate="0" laststate2="0" blockable="1" as="attrs">
+        <Array as="active_ids"/>
+      </Object>
+      <Array as="props">
+        <Object name="Capacity" type="float" value="642.0000"/>
+        <Object name="Show Time Remaining" type="bool" value="true"/>
+        <Object name="Show Active Usage" type="bool" value="false"/>
+      </Array>
+      <Object wood="100" mf="300" cloth="20" as="craft"/>
+    </mxCell>
+    <mxCell id="383" value="Power In" style="portv" vertex="1" parent="382" type="in" consumable="1" reconsumable="0" delayed="0" direct="0" warning="0">
+      <mxGeometry x="0.4" y="-0.2" width="10" height="10" relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="384" value="Water In" style="portf" vertex="1" parent="382" type="fin" consumable="1" reconsumable="0" delayed="0" direct="0" warning="0">
+      <mxGeometry x="-0.15" y="0.4" width="10" height="10" relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="385" value="Water Out" style="portf" vertex="1" parent="382" type="fout" consumable="1" reconsumable="0" delayed="0" direct="0" warning="0">
+      <mxGeometry x="1" y="0.4" width="10" height="10" relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="386" value="17" edge="1" disabled="0" hovered="0" parent="1" source="378" target="384" origin="328" link="395">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="387" value="Splitter" style="cmp_splitter" vertex="1" connectable="0" parent="1">
+      <mxGeometry x="392" y="-230" width="64" height="64" as="geometry"/>
+      <Object cmpid="splitter" consumption="1" passthrough="0" usage="1" as="attrs"/>
+      <Array as="props"/>
+      <Object mf="100" as="craft"/>
+    </mxCell>
+    <mxCell id="388" value="Power In" style="portv" vertex="1" parent="387" type="in" consumable="1" reconsumable="0" delayed="0" direct="0" warning="0">
+      <mxGeometry x="0.4" y="-0.2" width="10" height="10" relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="389" value="Power Out 1" style="portv" vertex="1" parent="387" type="out" consumable="1" reconsumable="0" delayed="0" direct="1" warning="0">
+      <mxGeometry x="0.1" y="1" width="10" height="10" relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="390" value="Power Out 2" style="portv" vertex="1" parent="387" type="out" consumable="1" reconsumable="0" delayed="0" direct="1" warning="0">
+      <mxGeometry x="0.45" y="1" width="10" height="10" relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="391" value="Power Out 3" style="portv" vertex="1" parent="387" type="out" consumable="1" reconsumable="0" delayed="0" direct="1" warning="0">
+      <mxGeometry x="0.8" y="1" width="10" height="10" relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="392" value="12" edge="1" disabled="0" hovered="0" parent="1" source="324" target="336" origin="322" link="0">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="204.35415148435516" y="-9.070126667476586"/>
+          <mxPoint x="204.35415148435516" y="-49.070126667476586"/>
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="393" value="12" edge="1" disabled="0" hovered="0" parent="1" source="327" target="337" origin="325" link="0">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="254.35415148435516" y="-79.07012666747659"/>
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="394" value="12" edge="1" disabled="0" hovered="0" parent="1" source="330" target="338" origin="328" link="0">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="274.35415148435516" y="-139.0701266674766"/>
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="395" value="36" edge="1" disabled="0" hovered="0" parent="1" source="339" target="376" origin="328" link="0">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="316.74851768153826" y="39.23973248745301"/>
+          <mxPoint x="306.74851768153826" y="-150.760267512547"/>
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="396" value="0" edge="1" disabled="0" hovered="0" parent="1" source="391" target="332" link="445" origin="363">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="397" value="0" edge="1" disabled="0" hovered="0" parent="1" source="390" target="383" link="445" origin="363">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="437.4527430336509" y="-46.394070329448425"/>
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="412" value="Sprinkler" style="cmp_sprinkler" vertex="1" connectable="0" parent="1">
+      <mxGeometry x="900" y="-100" width="64" height="64" as="geometry"/>
+      <Object cmpid="sprinkler" consumption="1" active="0" usage="2" as="attrs"/>
+      <Array as="props"/>
+      <Object mf="75" as="craft"/>
+    </mxCell>
+    <mxCell id="413" value="Water In" style="portf" vertex="1" parent="412" type="fin" consumable="1" reconsumable="0" delayed="0" direct="0" warning="0">
+      <mxGeometry x="-0.15" y="0.4" width="10" height="10" relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="414" value="Passthrough" style="portf" vertex="1" parent="412" type="fout" consumable="1" reconsumable="0" delayed="0" direct="0" warning="0">
+      <mxGeometry x="1" y="0.4" width="10" height="10" relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="415" value="Fluid Switch &amp; Pump" style="cmp_fluid_switch" vertex="1" connectable="0" parent="1">
+      <mxGeometry x="790" y="-100" width="64" height="64" as="geometry"/>
+      <Object cmpid="fluid_switch" consumption="0" state="1" passthrough="1" blockable="1" usage="0" as="attrs"/>
+      <Array as="props"/>
+      <Object mf="150" as="craft"/>
+    </mxCell>
+    <mxCell id="416" value="Water In" style="portf" vertex="1" parent="415" type="fin" consumable="1" reconsumable="0" delayed="0" direct="0" warning="0">
+      <mxGeometry x="-0.15" y="0.4" width="10" height="10" relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="417" value="Pump Power" style="portv" vertex="1" parent="415" type="in" consumable="0" reconsumable="0" delayed="0" direct="0" warning="0">
+      <mxGeometry x="0.2" y="-0.2" width="10" height="10" relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="418" value="Toggle" style="portv" vertex="1" parent="415" type="in" consumable="1" reconsumable="0" delayed="0" direct="0" warning="0">
+      <mxGeometry x="0.6" y="-0.2" width="10" height="10" relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="419" value="Water Out" style="portf" vertex="1" parent="415" type="fout" consumable="1" reconsumable="0" delayed="0" direct="0" warning="0">
+      <mxGeometry x="1" y="0.4" width="10" height="10" relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="421" value="0" edge="1" disabled="0" hovered="0" parent="1" source="419" target="413" origin="517" link="529">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="422" value="Splitter" style="cmp_splitter" vertex="1" connectable="0" parent="1">
+      <mxGeometry x="720" y="-230" width="64" height="64" as="geometry"/>
+      <Object cmpid="splitter" consumption="1" passthrough="0" usage="1" as="attrs"/>
+      <Array as="props"/>
+      <Object mf="100" as="craft"/>
+    </mxCell>
+    <mxCell id="423" value="Power In" style="portv" vertex="1" parent="422" type="in" consumable="1" reconsumable="0" delayed="0" direct="0" warning="0">
+      <mxGeometry x="0.4" y="-0.2" width="10" height="10" relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="424" value="Power Out 1" style="portv" vertex="1" parent="422" type="out" consumable="1" reconsumable="0" delayed="0" direct="1" warning="0">
+      <mxGeometry x="0.1" y="1" width="10" height="10" relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="425" value="Power Out 2" style="portv" vertex="1" parent="422" type="out" consumable="1" reconsumable="0" delayed="0" direct="1" warning="0">
+      <mxGeometry x="0.45" y="1" width="10" height="10" relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="426" value="Power Out 3" style="portv" vertex="1" parent="422" type="out" consumable="1" reconsumable="0" delayed="0" direct="1" warning="0">
+      <mxGeometry x="0.8" y="1" width="10" height="10" relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="429" value="Electrical Branch" style="cmp_branch" vertex="1" connectable="0" parent="1">
+      <mxGeometry x="-60" y="-350" width="64" height="64" as="geometry"/>
+      <Object cmpid="branch" consumption="1" display="16" passthrough="0" branch_min="2" usage="16" as="attrs"/>
+      <Array as="props">
+        <Object name="Branch" type="int" value="16" minval="2"/>
+        <Object name="Show Branch Amount" type="bool" value="true"/>
+      </Array>
+      <Object mf="75" as="craft"/>
+    </mxCell>
+    <mxCell id="430" value="Power In" style="portv" vertex="1" parent="429" type="in" consumable="1" reconsumable="0" delayed="0" direct="0" warning="0">
+      <mxGeometry x="0.4" y="1.05" width="10" height="10" relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="431" value="Branch Out" style="portv" vertex="1" parent="429" type="out" consumable="1" reconsumable="0" delayed="1" direct="0" warning="0">
+      <mxGeometry x="0.2" y="-0.2" width="10" height="10" relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="432" value="Power Out" style="portv" vertex="1" parent="429" type="out" consumable="1" reconsumable="0" delayed="0" direct="0" warning="0">
+      <mxGeometry x="0.6" y="-0.2" width="10" height="10" relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="434" value="0" edge="1" disabled="0" hovered="0" parent="1" source="431" target="347" origin="363" link="433">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="-7.87299605785617" y="-376.4124374554236"/>
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="440" value="Electrical Branch" style="cmp_branch" vertex="1" connectable="0" parent="1">
+      <mxGeometry x="130" y="-350" width="64" height="64" as="geometry"/>
+      <Object cmpid="branch" consumption="1" display="11" passthrough="0" branch_min="2" usage="11" as="attrs"/>
+      <Array as="props">
+        <Object name="Branch" type="int" value="11" minval="2"/>
+        <Object name="Show Branch Amount" type="bool" value="true"/>
+      </Array>
+      <Object mf="75" as="craft"/>
+    </mxCell>
+    <mxCell id="441" value="Power In" style="portv" vertex="1" parent="440" type="in" consumable="1" reconsumable="0" delayed="0" direct="0" warning="0">
+      <mxGeometry x="0.4" y="1.05" width="10" height="10" relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="442" value="Branch Out" style="portv" vertex="1" parent="440" type="out" consumable="1" reconsumable="0" delayed="1" direct="0" warning="0">
+      <mxGeometry x="0.2" y="-0.2" width="10" height="10" relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="443" value="Power Out" style="portv" vertex="1" parent="440" type="out" consumable="1" reconsumable="0" delayed="0" direct="0" warning="0">
+      <mxGeometry x="0.6" y="-0.2" width="10" height="10" relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="444" value="0" edge="1" disabled="0" hovered="0" parent="1" source="432" target="441" origin="363" link="0">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="-10.245877413788378" y="-411.49718321813555"/>
+          <mxPoint x="89.75412258621162" y="-391.49718321813555"/>
+          <mxPoint x="79.75412258621162" y="-251.49718321813555"/>
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="445" value="0" edge="1" disabled="0" hovered="0" parent="1" source="442" target="388" origin="363" link="444">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="129.75412258621162" y="-393.19209847237283"/>
+          <mxPoint x="419.7541225862116" y="-373.19209847237283"/>
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="446" value="0" edge="1" disabled="0" hovered="0" parent="1" source="443" target="423" origin="363" link="444">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="408.05920733197433" y="-437.09040355711863"/>
+          <mxPoint x="848.0592073319743" y="-217.09040355711863"/>
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="447" value="Sprinkler" style="cmp_sprinkler" vertex="1" connectable="0" parent="1">
+      <mxGeometry x="1010" y="-100" width="64" height="64" as="geometry"/>
+      <Object cmpid="sprinkler" consumption="1" active="0" usage="2" as="attrs"/>
+      <Array as="props"/>
+      <Object mf="75" as="craft"/>
+    </mxCell>
+    <mxCell id="448" value="Water In" style="portf" vertex="1" parent="447" type="fin" consumable="1" reconsumable="0" delayed="0" direct="0" warning="0">
+      <mxGeometry x="-0.15" y="0.4" width="10" height="10" relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="449" value="Passthrough" style="portf" vertex="1" parent="447" type="fout" consumable="1" reconsumable="0" delayed="0" direct="0" warning="0">
+      <mxGeometry x="1" y="0.4" width="10" height="10" relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="450" value="0" edge="1" disabled="0" hovered="0" parent="1" source="414" target="448" origin="517" link="421">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="451" value="Sprinkler" style="cmp_sprinkler" vertex="1" connectable="0" parent="1">
+      <mxGeometry x="1114" y="-100" width="64" height="64" as="geometry"/>
+      <Object cmpid="sprinkler" consumption="1" active="0" usage="2" as="attrs"/>
+      <Array as="props"/>
+      <Object mf="75" as="craft"/>
+    </mxCell>
+    <mxCell id="452" value="Water In" style="portf" vertex="1" parent="451" type="fin" consumable="1" reconsumable="0" delayed="0" direct="0" warning="0">
+      <mxGeometry x="-0.15" y="0.4" width="10" height="10" relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="453" value="Passthrough" style="portf" vertex="1" parent="451" type="fout" consumable="1" reconsumable="0" delayed="0" direct="0" warning="0">
+      <mxGeometry x="1" y="0.4" width="10" height="10" relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="454" value="Sprinkler" style="cmp_sprinkler" vertex="1" connectable="0" parent="1">
+      <mxGeometry x="1220" y="-100" width="64" height="64" as="geometry"/>
+      <Object cmpid="sprinkler" consumption="1" active="0" usage="2" as="attrs"/>
+      <Array as="props"/>
+      <Object mf="75" as="craft"/>
+    </mxCell>
+    <mxCell id="455" value="Water In" style="portf" vertex="1" parent="454" type="fin" consumable="1" reconsumable="0" delayed="0" direct="0" warning="0">
+      <mxGeometry x="-0.15" y="0.4" width="10" height="10" relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="456" value="Passthrough" style="portf" vertex="1" parent="454" type="fout" consumable="1" reconsumable="0" delayed="0" direct="0" warning="0">
+      <mxGeometry x="1" y="0.4" width="10" height="10" relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="457" value="0" edge="1" disabled="0" hovered="0" parent="1" source="449" target="452" origin="517" link="450">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="458" value="0" edge="1" disabled="0" hovered="0" parent="1" source="453" target="455" origin="517" link="457">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="459" value="Sprinkler" style="cmp_sprinkler" vertex="1" connectable="0" parent="1">
+      <mxGeometry x="1324" y="-100" width="64" height="64" as="geometry"/>
+      <Object cmpid="sprinkler" consumption="1" active="0" usage="2" as="attrs"/>
+      <Array as="props"/>
+      <Object mf="75" as="craft"/>
+    </mxCell>
+    <mxCell id="460" value="Water In" style="portf" vertex="1" parent="459" type="fin" consumable="1" reconsumable="0" delayed="0" direct="0" warning="0">
+      <mxGeometry x="-0.15" y="0.4" width="10" height="10" relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="461" value="Passthrough" style="portf" vertex="1" parent="459" type="fout" consumable="1" reconsumable="0" delayed="0" direct="0" warning="0">
+      <mxGeometry x="1" y="0.4" width="10" height="10" relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="462" value="0" edge="1" disabled="0" hovered="0" parent="1" source="456" target="460" origin="517" link="458">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="483" value="Sprinkler" style="cmp_sprinkler" vertex="1" connectable="0" parent="1">
+      <mxGeometry x="1450" y="-100" width="64" height="64" as="geometry"/>
+      <Object cmpid="sprinkler" consumption="1" active="0" usage="2" as="attrs"/>
+      <Array as="props"/>
+      <Object mf="75" as="craft"/>
+    </mxCell>
+    <mxCell id="484" value="Water In" style="portf" vertex="1" type="fin" consumable="1" reconsumable="0" delayed="0" direct="0" warning="0" parent="483">
+      <mxGeometry x="-0.15" y="0.4" width="10" height="10" relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="485" value="Passthrough" style="portf" vertex="1" type="fout" consumable="1" reconsumable="0" delayed="0" direct="0" warning="0" parent="483">
+      <mxGeometry x="1" y="0.4" width="10" height="10" relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="490" value="0" edge="1" disabled="0" hovered="0" parent="1" source="484" target="461" origin="517" link="462">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="491" value="Sprinkler" style="cmp_sprinkler" vertex="1" connectable="0" parent="1">
+      <mxGeometry x="900" y="-30" width="64" height="64" as="geometry"/>
+      <Object cmpid="sprinkler" consumption="1" active="0" usage="2" as="attrs"/>
+      <Array as="props"/>
+      <Object mf="75" as="craft"/>
+    </mxCell>
+    <mxCell id="492" value="Water In" style="portf" vertex="1" type="fin" consumable="1" reconsumable="0" delayed="0" direct="0" warning="0" parent="491">
+      <mxGeometry x="-0.15" y="0.4" width="10" height="10" relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="493" value="Passthrough" style="portf" vertex="1" type="fout" consumable="1" reconsumable="0" delayed="0" direct="0" warning="0" parent="491">
+      <mxGeometry x="1" y="0.4" width="10" height="10" relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="494" value="Sprinkler" style="cmp_sprinkler" vertex="1" connectable="0" parent="1">
+      <mxGeometry x="1010" y="-30" width="64" height="64" as="geometry"/>
+      <Object cmpid="sprinkler" consumption="1" active="0" usage="2" as="attrs"/>
+      <Array as="props"/>
+      <Object mf="75" as="craft"/>
+    </mxCell>
+    <mxCell id="495" value="Water In" style="portf" vertex="1" type="fin" consumable="1" reconsumable="0" delayed="0" direct="0" warning="0" parent="494">
+      <mxGeometry x="-0.15" y="0.4" width="10" height="10" relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="496" value="Passthrough" style="portf" vertex="1" type="fout" consumable="1" reconsumable="0" delayed="0" direct="0" warning="0" parent="494">
+      <mxGeometry x="1" y="0.4" width="10" height="10" relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="497" value="0" edge="1" disabled="0" hovered="0" origin="514" link="530" source="493" target="495" parent="1">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="498" value="Sprinkler" style="cmp_sprinkler" vertex="1" connectable="0" parent="1">
+      <mxGeometry x="1114" y="-30" width="64" height="64" as="geometry"/>
+      <Object cmpid="sprinkler" consumption="1" active="0" usage="2" as="attrs"/>
+      <Array as="props"/>
+      <Object mf="75" as="craft"/>
+    </mxCell>
+    <mxCell id="499" value="Water In" style="portf" vertex="1" type="fin" consumable="1" reconsumable="0" delayed="0" direct="0" warning="0" parent="498">
+      <mxGeometry x="-0.15" y="0.4" width="10" height="10" relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="500" value="Passthrough" style="portf" vertex="1" type="fout" consumable="1" reconsumable="0" delayed="0" direct="0" warning="0" parent="498">
+      <mxGeometry x="1" y="0.4" width="10" height="10" relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="501" value="Sprinkler" style="cmp_sprinkler" vertex="1" connectable="0" parent="1">
+      <mxGeometry x="1220" y="-30" width="64" height="64" as="geometry"/>
+      <Object cmpid="sprinkler" consumption="1" active="0" usage="2" as="attrs"/>
+      <Array as="props"/>
+      <Object mf="75" as="craft"/>
+    </mxCell>
+    <mxCell id="502" value="Water In" style="portf" vertex="1" type="fin" consumable="1" reconsumable="0" delayed="0" direct="0" warning="0" parent="501">
+      <mxGeometry x="-0.15" y="0.4" width="10" height="10" relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="503" value="Passthrough" style="portf" vertex="1" type="fout" consumable="1" reconsumable="0" delayed="0" direct="0" warning="0" parent="501">
+      <mxGeometry x="1" y="0.4" width="10" height="10" relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="504" value="0" edge="1" disabled="0" hovered="0" origin="514" link="497" source="496" target="499" parent="1">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="505" value="0" edge="1" disabled="0" hovered="0" origin="514" link="504" source="500" target="502" parent="1">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="506" value="Sprinkler" style="cmp_sprinkler" vertex="1" connectable="0" parent="1">
+      <mxGeometry x="1324" y="-30" width="64" height="64" as="geometry"/>
+      <Object cmpid="sprinkler" consumption="1" active="0" usage="2" as="attrs"/>
+      <Array as="props"/>
+      <Object mf="75" as="craft"/>
+    </mxCell>
+    <mxCell id="507" value="Water In" style="portf" vertex="1" type="fin" consumable="1" reconsumable="0" delayed="0" direct="0" warning="0" parent="506">
+      <mxGeometry x="-0.15" y="0.4" width="10" height="10" relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="508" value="Passthrough" style="portf" vertex="1" type="fout" consumable="1" reconsumable="0" delayed="0" direct="0" warning="0" parent="506">
+      <mxGeometry x="1" y="0.4" width="10" height="10" relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="509" value="0" edge="1" disabled="0" hovered="0" origin="514" link="505" source="503" target="507" parent="1">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="510" value="Sprinkler" style="cmp_sprinkler" vertex="1" connectable="0" parent="1">
+      <mxGeometry x="1450" y="-30" width="64" height="64" as="geometry"/>
+      <Object cmpid="sprinkler" consumption="1" active="0" usage="2" as="attrs"/>
+      <Array as="props"/>
+      <Object mf="75" as="craft"/>
+    </mxCell>
+    <mxCell id="511" value="Water In" style="portf" vertex="1" type="fin" consumable="1" reconsumable="0" delayed="0" direct="0" warning="0" parent="510">
+      <mxGeometry x="-0.15" y="0.4" width="10" height="10" relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="512" value="Passthrough" style="portf" vertex="1" type="fout" consumable="1" reconsumable="0" delayed="0" direct="0" warning="0" parent="510">
+      <mxGeometry x="1" y="0.4" width="10" height="10" relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="513" value="0" edge="1" disabled="0" hovered="0" origin="514" link="509" source="511" target="508" parent="1">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="514" value="Water Barrel" style="cmp_waterbarrel" vertex="1" connectable="0" parent="1">
+      <mxGeometry x="640" y="-40" width="64" height="64" as="geometry"/>
+      <Object cmpid="waterbarrel" isroot="1" combinable="1" display="0" display_filter="time" subdisplay="0" charge="0" passthrough="0" output="12" charge_max="20000" charge_min="0" active_usage="0" last_active_usage="0" usage="12" state="1" laststate="0" laststate2="0" blockable="1" as="attrs">
+        <Array as="active_ids"/>
+        <Object x="0" y="10" as="props_offset"/>
+      </Object>
+      <Array as="props">
+        <Object name="Capacity" type="float" value="0"/>
+        <Object name="Show Time Remaining" type="bool" value="true"/>
+        <Object name="Show Active Usage" type="bool" value="false"/>
+      </Array>
+      <Object wood="250" tarp="1" as="craft"/>
+    </mxCell>
+    <mxCell id="515" value="Water In" style="portf" vertex="1" parent="514" type="fin" consumable="1" reconsumable="0" delayed="0" direct="0" warning="0">
+      <mxGeometry x="-0.15" y="0.4" width="10" height="10" relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="516" value="Water Out" style="portf" vertex="1" parent="514" type="fout" consumable="1" reconsumable="0" delayed="0" direct="0" warning="0">
+      <mxGeometry x="1" y="0.4" width="10" height="10" relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="517" value="Water Barrel" style="cmp_waterbarrel" vertex="1" connectable="0" parent="1">
+      <mxGeometry x="640" y="-138" width="64" height="64" as="geometry"/>
+      <Object cmpid="waterbarrel" isroot="1" combinable="1" display="0" display_filter="time" subdisplay="0" charge="0" passthrough="0" output="12" charge_max="20000" charge_min="0" active_usage="0" last_active_usage="0" usage="12" state="1" laststate="0" laststate2="0" blockable="1" as="attrs">
+        <Array as="active_ids"/>
+        <Object x="0" y="10" as="props_offset"/>
+      </Object>
+      <Array as="props">
+        <Object name="Capacity" type="float" value="0"/>
+        <Object name="Show Time Remaining" type="bool" value="true"/>
+        <Object name="Show Active Usage" type="bool" value="false"/>
+      </Array>
+      <Object wood="250" tarp="1" as="craft"/>
+    </mxCell>
+    <mxCell id="518" value="Water In" style="portf" vertex="1" parent="517" type="fin" consumable="1" reconsumable="0" delayed="0" direct="0" warning="0">
+      <mxGeometry x="-0.15" y="0.4" width="10" height="10" relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="519" value="Water Out" style="portf" vertex="1" parent="517" type="fout" consumable="1" reconsumable="0" delayed="0" direct="0" warning="0">
+      <mxGeometry x="1" y="0.4" width="10" height="10" relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="520" value="0" edge="1" disabled="0" hovered="0" parent="1" source="385" target="515" origin="382" link="0">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="521" value="0" edge="1" disabled="0" hovered="0" parent="1" source="334" target="518" origin="331" link="0">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="523" value="Fluid Switch &amp; Pump" style="cmp_fluid_switch" vertex="1" connectable="0" parent="1">
+      <mxGeometry x="790" y="-30" width="64" height="64" as="geometry"/>
+      <Object cmpid="fluid_switch" consumption="0" state="1" passthrough="1" blockable="1" usage="0" as="attrs"/>
+      <Array as="props"/>
+      <Object mf="150" as="craft"/>
+    </mxCell>
+    <mxCell id="524" value="Water In" style="portf" vertex="1" type="fin" consumable="1" reconsumable="0" delayed="0" direct="0" warning="0" parent="523">
+      <mxGeometry x="-0.15" y="0.4" width="10" height="10" relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="525" value="Pump Power" style="portv" vertex="1" type="in" consumable="0" reconsumable="0" delayed="0" direct="0" warning="0" parent="523">
+      <mxGeometry x="0.2" y="-0.2" width="10" height="10" relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="526" value="Toggle" style="portv" vertex="1" type="in" consumable="1" reconsumable="0" delayed="0" direct="0" warning="0" parent="523">
+      <mxGeometry x="0.6" y="-0.2" width="10" height="10" relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="527" value="Water Out" style="portf" vertex="1" type="fout" consumable="1" reconsumable="0" delayed="0" direct="0" warning="0" parent="523">
+      <mxGeometry x="1" y="0.4" width="10" height="10" relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="528" value="0" edge="1" disabled="0" hovered="0" parent="1" source="524" target="516" origin="514" link="0">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="529" value="0" edge="1" disabled="0" hovered="0" parent="1" source="416" target="519" origin="517" link="0">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="530" value="0" edge="1" disabled="0" hovered="0" parent="1" source="527" target="492" origin="514" link="528">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="531" value="Electrical Branch" style="cmp_branch" vertex="1" connectable="0" parent="1">
+      <mxGeometry x="-480" y="-356" width="64" height="64" as="geometry"/>
+      <Object cmpid="branch" consumption="1" display="2" passthrough="0" branch_min="2" usage="0" as="attrs"/>
+      <Array as="props">
+        <Object name="Branch" type="int" value="2" minval="2"/>
+        <Object name="Show Branch Amount" type="bool" value="true"/>
+      </Array>
+      <Object mf="75" as="craft"/>
+    </mxCell>
+    <mxCell id="532" value="Power In" style="portv" vertex="1" parent="531" type="in" consumable="1" reconsumable="0" delayed="0" direct="0" warning="0">
+      <mxGeometry x="0.4" y="1.05" width="10" height="10" relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="533" value="Branch Out" style="portv" vertex="1" parent="531" type="out" consumable="1" reconsumable="0" delayed="1" direct="0" warning="0">
+      <mxGeometry x="0.2" y="-0.2" width="10" height="10" relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="534" value="Power Out" style="portv" vertex="1" parent="531" type="out" consumable="1" reconsumable="0" delayed="0" direct="0" warning="0">
+      <mxGeometry x="0.6" y="-0.2" width="10" height="10" relative="1" as="geometry"/>
+    </mxCell>
+  </root>
+</mxGraphModel>
